@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: testing create pot\n"
+"POT-Creation-Date: 2019-01-21 00:36+0200\n"
+"PO-Revision-Date: 2019-01-21 00:38+0200\n"
+"Last-Translator: Ηλιάδης Ηλίας <iliadis@kekbay.gr>\n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../ui/optionswindow.glade:57
+msgid "Font aspect:"
+msgstr "Κλίμακα γραμματοσειράς:"
+
+#: ../../ui/optionswindow.glade:149
+msgid "Fore Color"
+msgstr "Χρώμα των ψηφίων"
+
+#: ../../ui/optionswindow.glade:162
+msgid "Back Color"
+msgstr "Χρώμα υποβάθρου"
+
+#: ../../ui/optionswindow.glade:259 ../../startwindow.py:174
+msgid "Show only board"
+msgstr "Μόνο το παζλ"
+
+#: ../../ui/optionswindow.glade:275 ../../startwindow.py:175
+msgid "Show timer"
+msgstr "Χρονόμετρο"
+
+#: ../../ui/optionswindow.glade:290 ../../startwindow.py:176
+msgid "Show remaining pieces"
+msgstr "Απομένοντα ψηφία"
+
+#: ../../ui/optionswindow.glade:307
+msgid "Dictionaries"
+msgstr "Ομάδες πεσσών"
+
+#: ../../ui/optionswindow.glade:325
+msgid "Standard"
+msgstr "Κλασικό"
+
+# Do not translate
+#: ../../ui/puzzlewindow.glade:70
+msgid "Ctrl+Z"
+msgstr ""
+
+#: ../../ui/puzzlewindow.glade:76
+msgid "Undo"
+msgstr "Αναίρεση"
+
+# Do not translate
+#: ../../ui/puzzlewindow.glade:93
+msgid "Ctrl+Y"
+msgstr ""
+
+#: ../../ui/puzzlewindow.glade:99
+msgid "Redo"
+msgstr "Ακύρωση της αναίρεσης"
+
+#: ../../ui/startwindow.glade:19
+msgid "New puzzle"
+msgstr "Νέος γρίφος"
+
+#: ../../ui/startwindow.glade:34
+msgid "Continue"
+msgstr "Συνέχισε"
+
+#: ../../ui/startwindow.glade:38
+msgid "Continue last played if not solved"
+msgstr "Συνεχίζει το προηγούμενο αν δεν είχε λυθεί"
+
+#: ../../ui/startwindow.glade:152 ../../optionswindow_base.py:196
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../../auxiliary.py:100
+msgid "_Yes"
+msgstr "_Ναι"
+
+#: ../../auxiliary.py:102
+msgid "_OK"
+msgstr "_Εντάξει"
+
+#: ../../auxiliary.py:104
+msgid "_No"
+msgstr "Ό_χι"
+
+#: ../../auxiliary.py:106
+msgid "_Cancel"
+msgstr "Ά_κυρο"
+
+#: ../../auxiliary.py:108
+msgid "OK"
+msgstr "Εντάξει"
+
+#: ../../auxiliary.py:111
+msgid "ERROR"
+msgstr "ΣΦΑΛΜΑ"
+
+#: ../../auxiliary.py:114
+msgid "WARNING"
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
+
+#: ../../auxiliary.py:117
+msgid "QUESTION"
+msgstr "ΕΡΩΤΗΣΗ"
+
+#: ../../auxiliary.py:120
+msgid "INFO"
+msgstr "ΠΛΗΡΟΦΟΡΙΑ"
+
+#: ../../auxiliary.py:137
+msgid "You are about to:\n"
+msgstr "Πρόκειται να:\n"
+
+#: ../../auxiliary.py:138
+msgid "Are you sure?"
+msgstr "Είστε σίγουρος/η;"
+
+#: ../../main.py:106
+msgid "Sudoku Puzzle"
+msgstr "Σουντόκου παζλ"
+
+#: ../../main.py:125
+msgid "Command line test"
+msgstr ""
+
+#: ../../optionswindow.py:114
+msgid "a title"
+msgstr "Τίτλος της εφαρμογής:"
+
+#: ../../optionswindow_base.py:204 ../../puzzlewindow_base.py:170
+#: ../../startwindow_base.py:172
+msgid "Version of this window:"
+msgstr "Έκδοση αυτού του παραθύρου:"
+
+#: ../../optionswindow_base.py:315 ../../puzzlewindow_base.py:276
+#: ../../startwindow_base.py:195
+msgid "Not yet implemented"
+msgstr "Δεν έχει υλοποιηθεί ακόμα"
+
+#: ../../puzzlewindow.py:101
+msgid "Remaining numbers:"
+msgstr "Απομένοντα:"
+
+#: ../../puzzlewindow.py:120
+msgid "Drag «{}» to the board..."
+msgstr "Σύρετε το «{}» σε κάποιο τετράγωνο..."
+
+#: ../../puzzlewindow.py:122
+msgid "You have placed all «{}»."
+msgstr "Τοποθετήθηκαν όλα τα «{}»."
+
+#: ../../puzzlewindow.py:331
+msgid "Solved!"
+msgstr "Λύθηκε!"
+
+#: ../../puzzlewindow.py:332
+msgid "time passed"
+msgstr "διάρκεια"
+
+#: ../../startwindow.py:105
+msgid ""
+"Last puzzle solved.\n"
+"Starting new game."
+msgstr ""
+"Έχει ήδη λυθεί!\n"
+"Θα ξεκινήσει νέο."
+
+#: ../../startwindow.py:113
+msgid ""
+"No valid time saved.\n"
+"Starting new game."
+msgstr ""
+"Μη έγκυρος χρόνος.\n"
+"Θα ξεκινήσει νέο."
+
+#: ../../startwindow.py:115
+msgid ""
+"No moves in saved puzzle.\n"
+"Starting new game."
+msgstr ""
+"Δεν βρέθηκαν αποθηκευμένες κινήσεις.\n"
+"Θα ξεκινήσει νέο."
+
+#: ../../startwindow.py:119
+msgid ""
+"No valid board saved.\n"
+"Starting new game."
+msgstr ""
+"Δεν βρέθηκε έγκυρο προηγούμενο παζλ.\n"
+"Θα ξεκινήσει νέο."
+
+#: ../../startwindow.py:172
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: ../../startwindow.py:173
+msgid "Font aspect"
+msgstr "Κλίμακα γραμματοσειράς:"
+
+#: ../../startwindow.py:177
+msgid "Digits"
+msgstr "Ψηφία"
+
+#: ../../startwindow_base.py:164
+msgid "Home"
+msgstr "Αρχική"
+
+#~ msgid "New"
+#~ msgstr "Νέο"
+
+#~ msgid "Start"
+#~ msgstr "Έναρξη"

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 
+
+Copyright (C) iliadis ilias <iliadis@kekbay.gr>
+
+This file is part of Sudoku-Gtk.
+
+Sudoku-Gtk is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Sudoku-Gtk is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Sudoku-Gtk.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkApplicationWindow" id="PuzzleWindow">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkBox" id="MainBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="margin_left">3</property>
+        <property name="margin_right">3</property>
+        <property name="margin_top">3</property>
+        <property name="margin_bottom">3</property>
+        <property name="hexpand">True</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">3</property>
+        <child>
+          <object class="GtkBox" id="boxUp">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="spacing">5</property>
+            <child>
+              <object class="GtkButton" id="buttonHome">
+                <property name="label">gtk-home</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="receives_default">False</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="use_stock">True</property>
+                <property name="focus_on_click">False</property>
+                <property name="always_show_image">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="boxUndoRedo">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkButton" id="buttonUndo">
+                    <property name="visible">True</property>
+                    <property name="sensitive">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ctrl+Z</property>
+                    <signal name="clicked" handler="on_buttonUndo_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="imageUndo">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Undo</property>
+                        <property name="stock">gtk-undo</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="buttonRedo">
+                    <property name="visible">True</property>
+                    <property name="sensitive">False</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ctrl+Y</property>
+                    <signal name="clicked" handler="on_buttonRedo_clicked" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="imageRedo">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Redo</property>
+                        <property name="stock">gtk-redo</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="boxMenu">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">end</property>
+                <property name="spacing">5</property>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="labelVersion">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label">label</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="boxTimer">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
+                <property name="spacing">5</property>
+                <child>
+                  <object class="GtkImage" id="imageClock">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="halign">end</property>
+                    <property name="valign">center</property>
+                    <property name="icon_name">clock</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="labelClock">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <property name="label">00:00</property>
+                  </object>
+                  <packing>
+                    <property name="expand">True</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="pack_type">end</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxDown">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkEventBox" id="eventboxPuzzle">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="can_default">True</property>
+                <property name="has_default">True</property>
+                <property name="receives_default">True</property>
+                <property name="hexpand">True</property>
+                <property name="vexpand">True</property>
+                <signal name="button-release-event" handler="on_eventboxPuzzle_button_release_event" swapped="no"/>
+                <signal name="drag-data-received" handler="on_eventboxPuzzle_drag_data_received" after="yes" swapped="no"/>
+                <signal name="drag-drop" handler="on_eventboxPuzzle_drag_drop" swapped="no"/>
+                <signal name="drag-motion" handler="on_eventboxPuzzle_drag_motion" swapped="no"/>
+                <signal name="size-allocate" handler="on_eventboxPuzzle_size_allocate" swapped="no"/>
+                <child>
+                  <object class="GtkDrawingArea" id="drawingareaPuzzle">
+                    <property name="width_request">297</property>
+                    <property name="height_request">297</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <signal name="draw" handler="on_drawingareaPuzzle_draw" swapped="no"/>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkListBox" id="listboxPieces">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="no_show_all">True</property>
+                <property name="halign">end</property>
+                <property name="valign">center</property>
+                <property name="selection_mode">none</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="pack_type">end</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

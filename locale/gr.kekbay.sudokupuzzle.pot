@@ -1,0 +1,205 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: testing create pot\n"
+"POT-Creation-Date: 2019-01-21 00:38+0200\n"
+"PO-Revision-Date: 2018-03-30 13:59+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ui/optionswindow.glade:57
+msgid "Font aspect:"
+msgstr ""
+
+#: ui/optionswindow.glade:149
+msgid "Fore Color"
+msgstr ""
+
+#: ui/optionswindow.glade:162
+msgid "Back Color"
+msgstr ""
+
+#: ui/optionswindow.glade:259 startwindow.py:174
+msgid "Show only board"
+msgstr ""
+
+#: ui/optionswindow.glade:275 startwindow.py:175
+msgid "Show timer"
+msgstr ""
+
+#: ui/optionswindow.glade:290 startwindow.py:176
+msgid "Show remaining pieces"
+msgstr ""
+
+#: ui/optionswindow.glade:307
+msgid "Dictionaries"
+msgstr ""
+
+#: ui/optionswindow.glade:325
+msgid "Standard"
+msgstr ""
+
+#: ui/puzzlewindow.glade:70
+msgid "Ctrl+Z"
+msgstr ""
+
+#: ui/puzzlewindow.glade:76
+msgid "Undo"
+msgstr ""
+
+#: ui/puzzlewindow.glade:93
+msgid "Ctrl+Y"
+msgstr ""
+
+#: ui/puzzlewindow.glade:99
+msgid "Redo"
+msgstr ""
+
+#: ui/startwindow.glade:19
+msgid "New puzzle"
+msgstr ""
+
+#: ui/startwindow.glade:34
+msgid "Continue"
+msgstr ""
+
+#: ui/startwindow.glade:38
+msgid "Continue last played if not solved"
+msgstr ""
+
+#: ui/startwindow.glade:152 optionswindow_base.py:196
+msgid "Options"
+msgstr ""
+
+#: auxiliary.py:100
+msgid "_Yes"
+msgstr ""
+
+#: auxiliary.py:102
+msgid "_OK"
+msgstr ""
+
+#: auxiliary.py:104
+msgid "_No"
+msgstr ""
+
+#: auxiliary.py:106
+msgid "_Cancel"
+msgstr ""
+
+#: auxiliary.py:108
+msgid "OK"
+msgstr ""
+
+#: auxiliary.py:111
+msgid "ERROR"
+msgstr ""
+
+#: auxiliary.py:114
+msgid "WARNING"
+msgstr ""
+
+#: auxiliary.py:117
+msgid "QUESTION"
+msgstr ""
+
+#: auxiliary.py:120
+msgid "INFO"
+msgstr ""
+
+#: auxiliary.py:137
+msgid "You are about to:\n"
+msgstr ""
+
+#: auxiliary.py:138
+msgid "Are you sure?"
+msgstr ""
+
+#: main.py:106
+msgid "Sudoku Puzzle"
+msgstr ""
+
+#: main.py:125
+msgid "Command line test"
+msgstr ""
+
+#: optionswindow.py:114
+msgid "a title"
+msgstr ""
+
+#: optionswindow_base.py:204 puzzlewindow_base.py:170 startwindow_base.py:172
+msgid "Version of this window:"
+msgstr ""
+
+#: optionswindow_base.py:315 puzzlewindow_base.py:276 startwindow_base.py:195
+msgid "Not yet implemented"
+msgstr ""
+
+#: puzzlewindow.py:101
+msgid "Remaining numbers:"
+msgstr ""
+
+#: puzzlewindow.py:120
+msgid "Drag «{}» to the board..."
+msgstr ""
+
+#: puzzlewindow.py:122
+msgid "You have placed all «{}»."
+msgstr ""
+
+#: puzzlewindow.py:331
+msgid "Solved!"
+msgstr ""
+
+#: puzzlewindow.py:332
+msgid "time passed"
+msgstr ""
+
+#: startwindow.py:105
+msgid ""
+"Last puzzle solved.\n"
+"Starting new game."
+msgstr ""
+
+#: startwindow.py:113
+msgid ""
+"No valid time saved.\n"
+"Starting new game."
+msgstr ""
+
+#: startwindow.py:115
+msgid ""
+"No moves in saved puzzle.\n"
+"Starting new game."
+msgstr ""
+
+#: startwindow.py:119
+msgid ""
+"No valid board saved.\n"
+"Starting new game."
+msgstr ""
+
+#: startwindow.py:172
+msgid "Font"
+msgstr ""
+
+#: startwindow.py:173
+msgid "Font aspect"
+msgstr ""
+
+#: startwindow.py:177
+msgid "Digits"
+msgstr ""
+
+#: startwindow_base.py:164
+msgid "Home"
+msgstr ""
